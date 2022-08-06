@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#cabeceralogo{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 150px;
+    padding: 0% 2%;
+    background: rgb(43, 72, 90);
+}
+
+#cabeceralogo > div {
+    flex: 1;
+    max-width: 960px;
+    padding-top: 45px;
+    
+
+}
+
+#cabeceralogo > div > h1 {
+    font: bold 40px Arial, sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+#menuprincipal {
+    display: flex;
+    justify-content: center;
+    width:  96%;
+    height: 40px;
+    padding: 0% 2%;
+    background-color: rgb(121, 183, 221);
+    border-top: 1px solid rgb(39, 39, 138);
+    border-bottom: 1px solid rgb(39, 39, 138);
+}
+
+#menuprincipal > div {
+    flex: 1;
+    max-width: 960px;
+}
+
+#menuprincipal li{
+    display: inline-block;
+    height: 25px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+
+#listamenu >li {
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+
+#listamenu li > ul {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    background-color: rgb(0, 255, 208);
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    list-style: none;
+    z-index: 1000;
+
+}
+
+#listamenu li > ul {
+    width: 120px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#listamenu li:hover ul{
+    display: block;
+}
+
+#listamenu a{
+    font: bold 18px arial, sans-serif;
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+}
+
+#menuprincipal li:hover {
+    background-color: rgb(45, 45, 146);
+}
+
+#menuprincipal a {
+    font: bold 18px Arial, sans-serif;
+    color: rgb(25, 25, 121);
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-image: url(../img/fondo.png);
+}
+
+main div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+}
+
+#articulosprincipales{
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 30px;
+    background-color: white;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+#infoadicional {
+    flex: 1;
+    max-width: 280px;
+    padding: 2%;
+    background-color: rgb(222, 231, 238);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+#infoadicional h1 {
+    font: blod 18px verdana, sans-serif;
+    color: black;
+    margin-bottom: 15px;
+}
+
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+article time{
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 15px;
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.numerodia {
+    font: bold 36px verdana, sans-serif;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.nombredia {
+    font:  12px verdana, sans-serif;
+    color: white;
+    justify-content: center;
+}
+ article h1 {
+     margin-top: 5px;
+     font: bold 30px georgia, sans-serif;
+     padding-left: 50px;
+
+ }
+
+ article p{
+    font: 18px georgia, sans-serif;
+ }
+
+figure {
+    margin: 10px 0px;
+}
+
+figure img {
+    max-width: 98%;
+    padding: 1%;
+    border: 1px solid black
+}
+
+#pielogo {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-color: #094660;
+}
+#pielogo > div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+    background-color: #4b8ca8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.seccionpie {
+    flex: 1;
+    padding: 3%;
+}
+
+.seccionpie h1 {
+    font: bold 20px arial, sans-serif;
+} 
+
+.seccionpie p {
+    margin-top: 5px;
+}
+
+.seccionpie a{
+    font: bold 12px verdana, sans-serif;
+    color: #094660;
+    text-decoration: none;
+}
+
+.seccionpie a:hover {
+    color: white;
+}
+
+address, small {
+    position: relative;
+    top: 80px;
+}

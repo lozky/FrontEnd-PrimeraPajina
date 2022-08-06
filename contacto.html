@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contactos.css">
+</head>
+<body>
+<!-- Comineso de encabezado -->
+    <header id="cabeceralogo">
+        <div>
+            <h1>Este es el titulo de mi pijina web</h1>
+        </div>
+</header>
+<!--fin de header-->
+
+<!--inicio barra de nabegacion-->
+    <nav id="menuprincipal">
+        <div>
+            <ul id="listamenu">
+                <li> <a href="index.html">Principal</a></li>
+                <li>  <a href="fotos.html">Fotos</a></li>
+                <li>  <a href="videos.html">Videos</a></li>
+                <li>  <a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+<!--Fin del nav-->
+
+<!--inicio main-->
+    <main>
+        <div>
+            <section id="articulosprincipales">
+                <h2 id="titulo_formulario">Formulario de contacto</h2>
+                <form action="" method="post">
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" id="" maxlength="50" size="50" autofocus placeholder="Escribe tu nombre" required>
+                    <label>Correo:</label>
+                    <input type="email" placeholder="Escribe tu correo" required>
+                    <label>Telefono:</label>
+                    <input type="tel" name="telefono" id="" pattern="[0-9]{9}" placeholder="xxxxxxxxx">
+                    <label>Pais</label>
+                    <select name="pais" required>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Inglaterra">Inglaterra</option>
+                        <option value="Peru">Peru</option>
+                    </select>
+                    <label>Rango</label>
+                    <input type="range" name="rango" max="20" min="5">
+                    <label> Selecciona tu color fav:</label>
+                    <input type="color" name="color" id="">
+                    <label for="">Selecciona una fecha</label>
+                    <input type="date" name="fecha" id="">
+                    <label for="">Hora:</label>
+                    <input type="time" name="hora" id="">
+                    <label for="">Comentarios:</label>
+                    <textarea name="comentarios" id="" cols="80" rows="8">Puedes escribir aqui tus abservaciones</textarea>
+
+                    <!---------------------boton enviar---------------------------------->
+                    <input type="submit" value="Enviar">
+                    
+                </form>
+            </section>
+            <aside id="infoadicional">
+                <h1>Informacion personal</h1>
+                <p>
+                    Cita del primer artculo
+                </p>
+                <p>
+                    Cita del segndo articulo 
+                </p>
+            </aside>
+        </div>
+    </main>
+<!--fin main -->
+
+<!--aqui va el footer-->
+    <footer id="pielogo">
+        <div>
+            <section class="seccionpie">
+                <h1>Sitio 1</h1>
+                <p> <a target="_blank" href="index.html">Principal</a></p>
+                <p>  <a href="fotos.html">Fotos</a></p>
+                <p>  <a href="videos.html">Videos</a></p>
+                <p>  <a href="contacto.html">Contacto</a></p>
+            </section class="seccionpie">
+            <section class="seccionpie">
+                <h1><strong>Ayuda</strong></h1>
+                <p> <a target="_blank" href="index.html">Principal</a></p>
+                <p>  <a href="fotos.html">Fotos</a></p>
+                <p>  <a href="videos.html">Videos</a></p>
+                <p>  <a href="contacto.html">Contacto</a></p>
+            </section>
+            <section class="seccionpie">
+                <address>Toreonto, Canada</address>
+                <small>&copy;Derechos reservados 2022</small>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

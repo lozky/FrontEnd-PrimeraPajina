@@ -1,0 +1,26 @@
+#titulofotos {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+
+.imagenes {
+    position: relative;
+    left: 30px;
+}
+
+.imagenes li {
+    position: relative;
+    display: inline-block;
+    margin: .1rem;
+}
+
+.imagenes li img {
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
